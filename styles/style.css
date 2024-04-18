@@ -28,20 +28,6 @@ body{
 
 }
 /* 3. and we use it like this */
-#line{
-  width: 30.97px;
-  height: 4px;
-  background-color: #FA8305;
-  border-radius: 20px;
-}
-#dot{
-  width: 5px;
-  height: 4px;
-  border-radius: 20px;
-  background-color: #FA8305;
-}
-
-
 
 #pa{
   width: 527px;
@@ -86,38 +72,12 @@ body{
   line-height: 58px;
   margin-left: 120px;
 }
-.fire{
-  width: 25px;
-  height: 25px;
-}
-.picture-caption{
-  margin-top: 25px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 9px;
-  color: var(--white);
-  font-family: Rubik;
-  font-size: 22px;
-  font-weight: 500;
-}
+
+
 .games:hover{
   opacity: 0.5;
 }
-#div9{
-  width: 826px;
-  height:132px;
-  margin-left: 308px;
-  font-family: Poppins,sans-serif;
-  font-weight: 600;
-  font-size: 35px;
-  line-height: 65.63px;
-  display: flex;
-  text-align: center;
-  margin-right: 306px;
-  margin-top: 150px;
 
-}
 .picture-caption:hover .fire{
   transform: scale(1.3);
   transition: ease-in-out;
@@ -152,17 +112,12 @@ body{
   position: absolute;
   left: 972px;
   top: 1810px;
-
-
 }
 #spider{
-
-  width: 1146px;
-  height: 462px;
-  border-radius: 5px;
-  margin-top: 46px;
-  /*margin-left: 148px;*/
-  margin-right: 146px;
+  width:1146px;
+  height:462px;
+  border-radius:5px;
+  margin-right:146px;
   z-index: 1;
   position: relative;
 }
